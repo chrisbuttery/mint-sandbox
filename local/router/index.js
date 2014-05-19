@@ -51,7 +51,7 @@ module.exports = function(){
       var page = document.querySelector('.page');
       if(page){
         page.innerHTML = data;
-        new Translation('en');
+        new Translation();
       }
     }
   });

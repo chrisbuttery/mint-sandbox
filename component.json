@@ -4,12 +4,14 @@
     "index.js"
   ],
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "components/backbone": "1.1.0"
+  },
   "paths": [
-  	"./local"
+    "./local"
   ],
   "local": [
     "router",
     "translate"
   ]
- }
+}
