@@ -49,7 +49,6 @@ module.exports = function(){
     // but ensures it's in scope
     onLoadPageSuccess: function(data){
       var page = document.querySelector('.page');
-      console.log('page', page);
       if(page){
         page.innerHTML = data;
         new Translation('en');
