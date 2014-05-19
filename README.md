@@ -7,8 +7,10 @@ A very crude example of swapping out different JSON files and jamming it into da
 
 Create a local site named: `http://local.mint-sandbox.com`.
 
-1. Run 'component install' to pull down all the awesome dependencies.
-2. Run 'component build' to bundle these up into a juicy script.
+Then from the root of the project (where the main `component.json` file is):
+
+1. Run `component install` to pull down all the awesome dependencies.
+2. Run `component build` to bundle these up into a juicy script.
 
 
 ### But I dont want to call my local site that
