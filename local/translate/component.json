@@ -1,0 +1,16 @@
+{
+  "name": "translate",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "component/reactive": "*",
+    "component/emitter": "*",
+    "component/domify": "*",
+    "visionmedia/superagent": "*"
+  },
+  "templates": [
+    "template.html"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "router",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "components/jquery":"2.1.0" ,
+    "components/underscore":"1.5.2" ,
+    "components/backbone":"1.1.0",
+    "visionmedia/superagent": "*",
+    "component/domify": "*"
+  },
+  "paths": [
+    "./local"
+  ],
+  "local": [
+    "translate"
+  ]
+}

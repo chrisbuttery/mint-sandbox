@@ -1,0 +1,15 @@
+{
+  "name": "components",
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {},
+  "paths": [
+  	"./local"
+  ],
+  "local": [
+    "router",
+    "translate"
+  ]
+ }

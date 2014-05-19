@@ -1,0 +1,25 @@
+body {
+  background: #eee;
+  font-family: Helvetica;
+  padding: 50px;
+}
+
+.list-inline {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.list-inline__item {
+  float: left;
+  margin-left: 20px;
+}
+
+.list-inline__item:first-child {
+  margin-left: 0;
+}
+
+.underline {
+  text-decoration: underline;
+}

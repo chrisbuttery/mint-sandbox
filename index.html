@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/index.css">
+  </head>
+  <body>
+
+    <!-- main nav -->
+    <ul class="list-inline">
+      <li class="list-inline__item">
+        <a class="js-nav-item" href="#page-one">Page One</a>
+      </li>
+      <li class="list-inline__item">
+        <a class="js-nav-item" href="#page-two">Page Two</a>
+      </li>
+    </ul>
+
+    <!-- shove page content here -->
+    <div class="page">
+      <div class="translatable">
+        <h1>Home</h1>
+        <p data-text="caption"></p>
+      </div>
+    </div>
+
+    <!-- languages nav -->
+    <p>
+      <strong>Please select a language</strong>:
+      <span class="js-getLanguage underline" lang="en">English</span> |
+      <span class="js-getLanguage underline" lang="ch">chinese</span>
+    </p>
+
+    <!-- javascript build -->
+    <script type="text/javascript" src="./build/build.js"></script>
+  </body>
+</html>
